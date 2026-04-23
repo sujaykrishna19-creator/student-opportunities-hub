@@ -79,8 +79,8 @@ function App() {
         {/* Clean Corporate Navigation Bar */}
         <nav className="landing-nav">
           <div className="landing-nav-logos">
-            <img src="/logos/gems.png" alt="GEMS Education Logo" className="landing-logo" />
-            <img src="/logos/gis_logo.png" alt="GEMS International School Logo" className="landing-logo" />
+            <img src={`${import.meta.env.BASE_URL}logos/gems.png`} alt="GEMS Education Logo" className="landing-logo" />
+            <img src={`${import.meta.env.BASE_URL}logos/gis_logo.png`} alt="GEMS International School Logo" className="landing-logo" />
           </div>
         </nav>
 
@@ -140,8 +140,8 @@ function App() {
       <div className="top-bar">
         <div className="brand-container">
           <div className="top-bar-logos">
-            <img src="/logos/gems.png" alt="GEMS Education Logo" className="top-bar-logo" />
-            <img src="/logos/gis_logo.png" alt="GEMS International School Logo" className="top-bar-logo" />
+            <img src={`${import.meta.env.BASE_URL}logos/gems.png`} alt="GEMS Education Logo" className="top-bar-logo" />
+            <img src={`${import.meta.env.BASE_URL}logos/gis_logo.png`} alt="GEMS International School Logo" className="top-bar-logo" />
           </div>
         </div>
       </div>
